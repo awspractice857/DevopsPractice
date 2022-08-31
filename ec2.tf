@@ -5,6 +5,6 @@ resource "aws_instance" "APP" {
   key_name                    = "terraform"
   vpc_security_group_ids      = [aws_security_group.mainsg.id]
   tags = {
-    Name = "GIT Server TEst"  
+    Name = "GIT Server"  
   }
 }
